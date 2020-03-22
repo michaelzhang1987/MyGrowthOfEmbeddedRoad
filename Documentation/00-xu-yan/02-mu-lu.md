@@ -17,9 +17,9 @@
 
 反思自己，问题到底出现在哪儿呢，我认为可能有如下几方面原因：
 
-1.  缺乏重点，别人听了一堆东东，也抓不住关键点；
-2.  缺乏体系化，各类技巧零零碎碎的，让人感觉很杂乱；
-3.  缺少共情点，没有代入感，既然对自己无用，谁乐意听你吹牛。
+1.<br>缺乏重点，别人听了一堆东东，也抓不住关键点；
+2.<br>缺乏体系化，各类技巧零零碎碎的，让人感觉很杂乱；
+3.<br>缺少共情点，没有代入感，既然对自己无用，谁乐意听你吹牛。
 
 因此此次我在整理文稿时，比较关注整体知识的体系化，更关注职场人的困惑点。
 
@@ -49,83 +49,84 @@
 
 第九章为“实践之路”。至此，我整理出来的整个知识体系就介绍完毕了，但很遗憾，她只能给你参考，而不能直接告诉你给如何做。如为了让代码润滑流动，需要构建大家都认可的代码布局结构和书写规范，但不同团队用的编程语言、开发环境、人员素质等都千差万别，根本不存在统一的策略，需要在实践中不断磨合提炼。在比如接口和架构，虽然我在该书中我举了很多例子，但工控类产品跨度很大，复杂度、代码量、实时性、可靠性、进度和成本约束等特性都千差万别，也很难有标准的策略，需要大家结合着自己的产品去持续摸索。本章会简单的描述一些我在咨询活动中的通用做法，当然，这也是我咨询工作的重点，如您有需求，我会帮助您慢慢的将这套体系融入到您的项目团队中。
 
-**本书整体目录如下**：  
-[0.0 写一本书，纳二十载精华](https://blog.csdn.net/zhangmalong/article/details/103065005)  
-[0.1 前言](https://blog.csdn.net/zhangmalong/article/details/103147445)  
-0.2 目录  
-1.0 我的嵌入式软件成长之路  
-　　[1.1 自我介绍](https://blog.csdn.net/zhangmalong/article/details/103270623)  
-　　[1.2 早期职场的一些痛苦经历](https://blog.csdn.net/zhangmalong/article/details/103307984)  
-　　[1.3 亲历代码高复用研发模式](https://blog.csdn.net/zhangmalong/article/details/103417351)  
-　　[1.4 我的漫漫探索路](https://blog.csdn.net/zhangmalong/article/details/103523930)  
-　　[1.5 破除各种惯性误解](https://blog.csdn.net/zhangmalong/article/details/103626982)  
-2.0 跨越C语言入职陷阱  
-　　[2.1 新人入职困局](https://blog.csdn.net/zhangmalong/article/details/103729568)  
-　　[2.2 更好的“速成”策略](https://blog.csdn.net/zhangmalong/article/details/103729650)  
-　　[2.3 构建C语言入职教程](https://blog.csdn.net/zhangmalong/article/details/103814489)  
-　　[2.4 C语言入职例程一：空心菱形](https://blog.csdn.net/zhangmalong/article/details/103933188)  
-　　[2.5 C语言入职例程一：强化指针概念](https://blog.csdn.net/zhangmalong/article/details/104019400)  
-　　[2.6 C语言入职例程三：函数指针和程序框架入门](https://blog.csdn.net/zhangmalong/article/details/104122879)  
-　　[2.7 趣谈嵌入式C语言十层境界](https://blog.csdn.net/zhangmalong/article/details/104208128)  
-　　[2.8 其他快速入门必要知识  
-　　　　2.7.1快速学习产品  
-　　　　2.7.2 C++快速入门  
-　　　　2.7.3 qt快速入门  
-　　　　2.7.4 芯片调试快速入门  
-　　　　2.7.5 算法分析，matlab快速入门  
-　　　　2.7.6 给用户讲产品，ppt快速入门  
-　　　　2.7.7 写必要文档，word快速入门  
-　　　　2.8.8 总结](https://blog.csdn.net/zhangmalong/article/details/104208165)  
-3.0 代码审核机制  
-　　[3.1 代码审核机制](https://blog.csdn.net/zhangmalong/article/details/104308175)  
-　　[3.2 文件全局观](https://blog.csdn.net/zhangmalong/article/details/104423898)  
-　　[3.3 编码细节观](https://blog.csdn.net/zhangmalong/article/details/104424040)  
-　　[3.4 约定注释风格](https://blog.csdn.net/zhangmalong/article/details/104552475)  
-　　[3.5 统一名称](https://blog.csdn.net/zhangmalong/article/details/104552678)  
-　　[3.6 有效借助工具](https://blog.csdn.net/zhangmalong/article/details/104689446)  
-　　[3.7 构建知识库](https://blog.csdn.net/zhangmalong/article/details/104689613)  
-　　[3.8 行动指南](https://blog.csdn.net/zhangmalong/article/details/104689785)  
-4.0 进入真实产品世界  
-　　[4.1 一款真实的产品](https://blog.csdn.net/zhangmalong/article/details/104834110)  
-　　[4.2 基础数据模型](https://blog.csdn.net/zhangmalong/article/details/104988018)  
-　　4.3 架构师眼中的产品  
-5.0 接口和模块化  
-　　5.1 模块化，知易行难  
-　　5.2 起步，从通用函数下手  
-　　5.3 遥测类数据模型接口提炼  
-　　5.4 日志类数据模型接口提炼  
-　　5.5 设定值类数据模型接口提炼  
-　　5.6信号复归——一个强耦合模块解耦过程  
-6.0 整体架构设计  
-　　6.1 架构设计概论——产品化思维，必须进入架构世界  
-　　6.2 严格层次化软件静态架构模型  
-　　6.3 动态架构执行框架  
-　　6.4 配置软件模型  
-　　6.5 维护软件模型  
-　　6.6 虚拟设备模型  
-　　6.7 元件化模型，元件化和脚本，几乎是架构世界的通行证  
-　　6.8 分布式体系  
-　　6.9 MMI人机接口模型  
-7.0 产品质量持续提升  
-　　7.1 产品质量概论——产品质量，企业生存的根本  
-　　7.2 漫游全面质量管理体系模型（TQM）  
-　　7.3 一次产品异常复位分析经历，带你迈入质量持续提升世界  
-　　7.4 与其被动等待质量问题，更需要主动出击  
-8.0 融入管理  
-　　8.1传统管理之殇——漫天的理论，却无从下手  
-　　　　8.1.1 过程改进与CMMI  
-　　　　8.1.2 ISO9000族质量管理体系  
-　　　　8.1.3 覆盖产品生命周期的研发管理体系IPD  
-　　8.2 漫游代码单件流，思考其背后的管理思维  
-　　8.3 由代码单件流出发，构建最小必要文档体系  
-　　8.4 单件流和高复用结合，迈入大规模标准化研发模式世界  
-　　8.5 架构师和领域专家是如何自然而然产生的  
-　　8.6 基于内生性需求，持续迭代您的最佳管理策略  
-9.0 实践之路  
-　　9.1 这是一套能力模型，而非简单的知识体系——需要学，更需要锻炼  
-　　9.2 最佳起点：看到就是一种力量  
-　　9.3 必要条件：高层的理解和长期支持  
-　　9.4 执行策略：春雨润物，基于原有研发体系并慢慢融入改善。  
-10.0 尾记
+**本书整体目录如下**：<br>
+
+[0.0 写一本书，纳二十载精华](https://blog.csdn.net/zhangmalong/article/details/103065005)<br>
+[0.1 前言](https://blog.csdn.net/zhangmalong/article/details/103147445)<br>
+0.2 目录<br>
+1.0 我的嵌入式软件成长之路<br>
+[1.1 自我介绍](https://blog.csdn.net/zhangmalong/article/details/103270623)<br>
+　　[1.2 早期职场的一些痛苦经历](https://blog.csdn.net/zhangmalong/article/details/103307984)<br>
+　　[1.3 亲历代码高复用研发模式](https://blog.csdn.net/zhangmalong/article/details/103417351)<br>
+　　[1.4 我的漫漫探索路](https://blog.csdn.net/zhangmalong/article/details/103523930)<br>
+　　[1.5 破除各种惯性误解](https://blog.csdn.net/zhangmalong/article/details/103626982)<br>
+2.0 跨越C语言入职陷阱<br>
+　　[2.1 新人入职困局](https://blog.csdn.net/zhangmalong/article/details/103729568)<br>
+　　[2.2 更好的“速成”策略](https://blog.csdn.net/zhangmalong/article/details/103729650)<br>
+　　[2.3 构建C语言入职教程](https://blog.csdn.net/zhangmalong/article/details/103814489)<br>
+　　[2.4 C语言入职例程一：空心菱形](https://blog.csdn.net/zhangmalong/article/details/103933188)<br>
+　　[2.5 C语言入职例程一：强化指针概念](https://blog.csdn.net/zhangmalong/article/details/104019400)<br>
+　　[2.6 C语言入职例程三：函数指针和程序框架入门](https://blog.csdn.net/zhangmalong/article/details/104122879)<br>
+　　[2.7 趣谈嵌入式C语言十层境界](https://blog.csdn.net/zhangmalong/article/details/104208128)<br>
+　　[2.8 其他快速入门必要知识<br>
+　　　　2.7.1快速学习产品<br>
+　　　　2.7.2 C++快速入门<br>
+　　　　2.7.3 qt快速入门<br>
+　　　　2.7.4 芯片调试快速入门<br>
+　　　　2.7.5 算法分析，matlab快速入门<br>
+　　　　2.7.6 给用户讲产品，ppt快速入门<br>
+　　　　2.7.7 写必要文档，word快速入门<br>
+　　　　2.8.8 总结](https://blog.csdn.net/zhangmalong/article/details/104208165)<br>
+3.0 代码审核机制<br>
+　　[3.1 代码审核机制](https://blog.csdn.net/zhangmalong/article/details/104308175)<br>
+　　[3.2 文件全局观](https://blog.csdn.net/zhangmalong/article/details/104423898)<br>
+　　[3.3 编码细节观](https://blog.csdn.net/zhangmalong/article/details/104424040)<br>
+　　[3.4 约定注释风格](https://blog.csdn.net/zhangmalong/article/details/104552475)<br>
+　　[3.5 统一名称](https://blog.csdn.net/zhangmalong/article/details/104552678)<br>
+　　[3.6 有效借助工具](https://blog.csdn.net/zhangmalong/article/details/104689446)<br>
+　　[3.7 构建知识库](https://blog.csdn.net/zhangmalong/article/details/104689613)<br>
+　　[3.8 行动指南](https://blog.csdn.net/zhangmalong/article/details/104689785)<br>
+4.0 进入真实产品世界<br>
+　　[4.1 一款真实的产品](https://blog.csdn.net/zhangmalong/article/details/104834110)<br>
+　　[4.2 基础数据模型](https://blog.csdn.net/zhangmalong/article/details/104988018)<br>
+　　4.3 架构师眼中的产品<br>
+5.0 接口和模块化<br>
+　　5.1 模块化，知易行难<br>
+　　5.2 起步，从通用函数下手<br>
+　　5.3 遥测类数据模型接口提炼<br>
+　　5.4 日志类数据模型接口提炼<br>
+　　5.5 设定值类数据模型接口提炼<br>
+　　5.6信号复归——一个强耦合模块解耦过程<br>
+6.0 整体架构设计<br>
+　　6.1 架构设计概论——产品化思维，必须进入架构世界<br>
+　　6.2 严格层次化软件静态架构模型<br>
+　　6.3 动态架构执行框架<br>
+　　6.4 配置软件模型<br>
+　　6.5 维护软件模型<br>
+　　6.6 虚拟设备模型<br>
+　　6.7 元件化模型，元件化和脚本，几乎是架构世界的通行证<br>
+　　6.8 分布式体系<br>
+　　6.9 MMI人机接口模型<br>
+7.0 产品质量持续提升<br>
+　　7.1 产品质量概论——产品质量，企业生存的根本<br>
+　　7.2 漫游全面质量管理体系模型（TQM）<br>
+　　7.3 一次产品异常复位分析经历，带你迈入质量持续提升世界<br>
+　　7.4 与其被动等待质量问题，更需要主动出击<br>
+8.0 融入管理<br>
+　　8.1传统管理之殇——漫天的理论，却无从下手<br>
+　　　　8.1.1 过程改进与CMMI<br>
+　　　　8.1.2 ISO9000族质量管理体系<br>
+　　　　8.1.3 覆盖产品生命周期的研发管理体系IPD<br>
+　　8.2 漫游代码单件流，思考其背后的管理思维<br>
+　　8.3 由代码单件流出发，构建最小必要文档体系<br>
+　　8.4 单件流和高复用结合，迈入大规模标准化研发模式世界<br>
+　　8.5 架构师和领域专家是如何自然而然产生的<br>
+　　8.6 基于内生性需求，持续迭代您的最佳管理策略<br>
+9.0 实践之路<br>
+　　9.1 这是一套能力模型，而非简单的知识体系——需要学，更需要锻炼<br>
+　　9.2 最佳起点：看到就是一种力量<br>
+　　9.3 必要条件：高层的理解和长期支持<br>
+　　9.4 执行策略：春雨润物，基于原有研发体系并慢慢融入改善。<br>
+10.0 尾记<br>
 
 该目录结构后期会持续调整和优化，欢迎大家多提意见。虽然本书还在持续撰写中，但对于我来说，本书所有内容早就烂熟于胸，大家可以任意选择感兴趣的内容同我交流。另，一开始列出目录结构有助于大家有个整体认知，但切忌不要望文生义，根据过往经验，这样很容易将自己带偏了，最终反而成为思维上的拦路虎。

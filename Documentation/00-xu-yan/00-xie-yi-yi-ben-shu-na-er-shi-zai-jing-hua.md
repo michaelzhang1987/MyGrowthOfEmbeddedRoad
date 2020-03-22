@@ -39,12 +39,11 @@
 
 自从内心存有这样的想法后，我已经默默准备一段时间了。目前，整本书的架构已经成形，并且我已经试着写了其中某些章节，大概已完成了15万字左右。现在，我相信自己已经做好了准备，可以开始这本书的连载了。
 
-为了方便朋友们阅读，我会在自己的CSDN博客（我个人喜欢在CSDN阅读技术类文章）和微信公众账户（还会多一点乱七八糟的内容）两个渠道同时发布文章。  
-CSDN博客地址：https://blog.csdn.net/zhangmalong  
-微信公众号：异维设计一我的嵌入式成长之路  
-![](https://img-blog.csdnimg.cn/20191114115911316.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5nbWFsb25n,size_16,color_FFFFFF,t_70)  
+为了方便朋友们阅读，我会在自己的CSDN博客（我个人喜欢在CSDN阅读技术类文章）和微信公众账户（还会多一点乱七八糟的内容）两个渠道同时发布文章。
+CSDN博客地址：https://blog.csdn.net/zhangmalong
+微信公众号：异维设计一我的嵌入式成长之路
+![](https://img-blog.csdnimg.cn/20191114115911316.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5nbWFsb25n,size_16,color_FFFFFF,t_70)<br>
 通过网络写书，一个最大的好处是可以一边写一边和朋友们交流，为了方便交流，我额外构建了一个qq交流群：217304568，群名称为“嵌入式软件成长之路”。为了防止灌水党，大家加入时请标注“异维”二字，欢迎大家加入。
 
 我是小马儿，一个渴望良知与灵魂的嵌入式软件工程师，欢迎您的陪伴与同行。
-————————  
 [返回目录](https://blog.csdn.net/zhangmalong/article/details/103197670)

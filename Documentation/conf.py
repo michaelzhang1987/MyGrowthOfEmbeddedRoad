@@ -44,6 +44,12 @@ source_parsers = {
 # You can specify multiple suffix as a list of string:
 source_suffix = ['.rst', '.rest' , '.md']
 
+# index - master document
+# rst2pdf - name of the generated pdf
+# Sample rst2pdf doc - title of the pdf
+# Your Name - author name in the pdf
+pdf_documents = [('index', u'rst2pdf', u'Sample rst2pdf doc', u'Your Name'),]
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 

@@ -18,6 +18,10 @@ Welcome to 从入职到架构师——我的嵌入式软件成长之路's docume
    :numbered:
 
    10-wo-de-qian-ru-shi-cheng-zhang-zhi-lu/11-zi-wo-jian-shao
+   10-wo-de-qian-ru-shi-cheng-zhang-zhi-lu/12-zao-qi-zhi-chang-de-yi-xie-tong-ku-jing-li
+   10-wo-de-qian-ru-shi-cheng-zhang-zhi-lu/13-qin-li-dai-ma-gao-fu-yong-yan-fa-mo-shi
+   10-wo-de-qian-ru-shi-cheng-zhang-zhi-lu/14-wo-de-man-man-tan-suo-lu
+   10-wo-de-qian-ru-shi-cheng-zhang-zhi-lu/15-po-chu-ge-zhong-guan-xing-wu-jie
 
 .. toctree::
    :maxdepth: 2

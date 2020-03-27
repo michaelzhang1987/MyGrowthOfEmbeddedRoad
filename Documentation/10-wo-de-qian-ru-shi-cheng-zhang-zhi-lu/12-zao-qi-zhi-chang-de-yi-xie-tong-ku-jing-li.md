@@ -9,8 +9,6 @@
 
 本文链接：[https://blog.csdn.net/zhangmalong/article/details/103307984](https://blog.csdn.net/zhangmalong/article/details/103307984)
 
-展开
-
 1.2.1 职场中的玻璃格子
 --------------
 
@@ -166,5 +164,3 @@
 现实世界是残酷的，如果没人指导，我们想迈过这一步并不容易，大多数人会被环境所裹挟，最后浑浑噩噩一生。机缘巧合之下，我个人很幸运的完成了从入职到架构师的跨越，本书会带着你重温这个过程，也期望对你的成长有帮助。
 
 [返回目录](https://blog.csdn.net/zhangmalong/article/details/103197670)
-
-我是小马儿，一个渴望良知与灵魂的嵌入式软件工程师，欢迎您的陪伴与同行，如感兴趣可加个人微信号nzn_xiaomaer交流，需备注“异维”二字。

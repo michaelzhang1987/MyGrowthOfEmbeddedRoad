@@ -5,13 +5,9 @@
 
 发布于2019-12-06 11:00:09
 
-文章标签： [程序人生](https://so.csdn.net/so/search/s.do?q=程序人生&t=blog) [嵌入式软件](https://so.csdn.net/so/search/s.do?q=嵌入式软件&t=blog) [工控](https://so.csdn.net/so/search/s.do?q=工控&t=blog)
-
 [](http://creativecommons.org/licenses/by-sa/4.0/)版权声明：本文为博主原创文章，遵循 [CC 4.0 BY-SA](http://creativecommons.org/licenses/by-sa/4.0/) 版权协议，转载请附上原文出处链接和本声明。
 
 本文链接：[https://blog.csdn.net/zhangmalong/article/details/103417351](https://blog.csdn.net/zhangmalong/article/details/103417351)
-
-展开
 
 机缘巧合下，我加入了一家跨国公司并参与某关键工控产品的研发，然后我惊奇的发现其研发模式完全迥异于我以前的工作模式。这次经历不仅让我大开眼界，也开始倒逼自己认真思考这种工作模式的优缺点。为何要这样做？这样做的优点是什么？又是如何一步步迭代到目前这个样子的呢？
 
@@ -200,5 +196,3 @@
 带着您遨游一圈，您感受到那种力量了吗？
 
 [返回目录](https://blog.csdn.net/zhangmalong/article/details/103197670)
-
-我是小马儿，一个渴望良知与灵魂的嵌入式软件工程师，欢迎您的陪伴与同行，如感兴趣可加个人微信号nzn_xiaomaer交流，需备注“异维”二字。

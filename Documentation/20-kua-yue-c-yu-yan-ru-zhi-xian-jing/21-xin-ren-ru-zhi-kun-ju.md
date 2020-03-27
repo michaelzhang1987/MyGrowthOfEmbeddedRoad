@@ -5,16 +5,14 @@
 
 发布于2019-12-27 11:44:29
 
-文章标签： [程序设计](https://so.csdn.net/so/search/s.do?q=程序设计&t=blog) [c语言](https://so.csdn.net/so/search/s.do?q=c语言&t=blog) [嵌入式](https://so.csdn.net/so/search/s.do?q=嵌入式&t=blog)
-
 [](http://creativecommons.org/licenses/by-sa/4.0/)版权声明：本文为博主原创文章，遵循 [CC 4.0 BY-SA](http://creativecommons.org/licenses/by-sa/4.0/) 版权协议，转载请附上原文出处链接和本声明。
 
 本文链接：[https://blog.csdn.net/zhangmalong/article/details/103729568](https://blog.csdn.net/zhangmalong/article/details/103729568)
 
 很多刚入职的新人，都喜欢问一个类似的问题：“如何学习……?”。碰到此类问题，一些同事会给新人推荐一大堆书籍资料，热心的还会指导先看哪本在看哪本。不幸的是，新人买来一大堆书，然后大多仅仅翻看上前几章，然后，……，然后就没有然后了。
 
-我负责的工控产品嵌入式编程主要使用C和C++编程语言，很多新人喜欢请教我如何学习C和C++语言。年少轻狂时，我特喜欢推荐两本厚厚的大部头，《C Primer Plus》和《C++ Primer Plus》。这两本书当然是经典了，不仅体现在内容上，也体现在厚度上，大家体会一下：  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191227114058354.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5nbWFsb25n,size_16,color_FFFFFF,t_70)  
+我负责的工控产品嵌入式编程主要使用C和C++编程语言，很多新人喜欢请教我如何学习C和C++语言。年少轻狂时，我特喜欢推荐两本厚厚的大部头，《C Primer Plus》和《C++ Primer Plus》。这两本书当然是经典了，不仅体现在内容上，也体现在厚度上，大家体会一下：
+![](https://img-blog.csdnimg.cn/20191227114058354.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5nbWFsb25n,size_16,color_FFFFFF,t_70)
 都是七八百页的大部头，大家可暗自思量，自己看完这两本书需要多长时间。假设你自己处于刚入职的状态，面对一大堆陌生的领域，你有时间和毅力去从头到尾看这两本书吗？
 
 无数年后，这两本书已成为我书架上的常用参考书，其大多数内容也早已烙在脑袋里成为工作习惯了，但扪心自问，即使如此，我的整个职场生涯中，也没能从头到尾的读完这两本书。
@@ -58,4 +56,4 @@
 
 此路不通，有没有更好的策略呢？
 
-[返回目录](https://blog.csdn.net/zhangmalong/article/details/103197670) 
+[返回目录](https://blog.csdn.net/zhangmalong/article/details/103197670)

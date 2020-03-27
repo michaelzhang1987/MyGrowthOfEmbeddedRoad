@@ -9,8 +9,6 @@
 
 本文链接：[https://blog.csdn.net/zhangmalong/article/details/104122879](https://blog.csdn.net/zhangmalong/article/details/104122879)
 
-展开
-
 2.6.1 勿在浮沙筑高台
 -------------
 
@@ -41,12 +39,12 @@
 
 记得我当时将这本书通读完后，再去看默认生成的代码，再也没有那种晦涩难懂的感觉，所有的东西都是如此的亲切舒服。后来再学习MFC编程时，几乎是一马平川了。
 
-为何会出现这种情况呢，我们首先来了解一下基于MFC编程的默认学习曲线：  
+为何会出现这种情况呢，我们首先来了解一下基于MFC编程的默认学习曲线：
 ![](https://img-blog.csdnimg.cn/20200131121938111.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5nbWFsb25n,size_16,color_FFFFFF,t_70)
 
 以MFC开发程序，一开始很快速，因为开发工具为你产生了一个骨干程序，各种界面一应俱全，但是MFC的学习曲线十分陡峭，程序员从默认架构出发，到有能力修改程序代码以符合真实产品的需要，是一段不易攀登的峭壁。
 
-增加《MFC深入浅出》一书的学习后，学习曲线如下：  
+增加《MFC深入浅出》一书的学习后，学习曲线如下：
 ![](https://img-blog.csdnimg.cn/20200131121939783.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5nbWFsb25n,size_16,color_FFFFFF,t_70)
 
 从windows程序的入口WinMain函数开始，然后是窗口类别，然后是构建窗口，然后取得消息，然后分发消息，然后决定如何处理消息。
@@ -93,16 +91,16 @@
     {
     	return 1;
     }
-    
+
     /* 定义一个函数指针，原型要一致 */
     int (*pfn)(int n);
-    
+
     /* 赋值操作 */
     pfn = aa;
-    
+
     /* 调用操作 */
     int a = pfn(1);
-    
+
 
 上面的几段示例代码片段描述了函数指针的常规语法，不知大家是否有如下疑惑：
 
@@ -112,7 +110,7 @@
 
 ◇◇◇
 
-第一条，函数指针赋值为何操作没有取址符（&）。实际上如果你感觉不爽的话，完全可以加一个，总之“pfn = aa;”和“pfn = &aa;”的效果是一模一样的。这也证明了函数本身就是指针了，因此函数aa的调用也可以写成如下的样子：  
+第一条，函数指针赋值为何操作没有取址符（&）。实际上如果你感觉不爽的话，完全可以加一个，总之“pfn = aa;”和“pfn = &aa;”的效果是一模一样的。这也证明了函数本身就是指针了，因此函数aa的调用也可以写成如下的样子：
 (*aa)(1);
 
 理解了这个概念，碰到嵌入式产品中，需要C语言和汇编混合编程时，就会少一些困惑。
@@ -121,12 +119,10 @@
 
     int sz[] = {1,2,3,4};
     int *p = sz;
-    
 
 在这种写法，我们团队（包括我）好多小伙伴总有不踏实的感觉，大家习惯性写成：
 
     int *p = &sz[0];
-    
 
 你能体谅这种为了寻求概念清晰而采取的啰嗦策略吗！
 
@@ -136,13 +132,12 @@
 
     /* 函数指针赋值 */
     int (*pfn)(int n) = aa;
-    
+
     /* 函数指针数组赋值 */
     int (*pfn[])(int n) = {aa, bb, cc};
-    
+
     /* 函数指针作为函数参数传递 */
     void fun(int (*pfn)(int n)){}
-    
 
 有没有头晕的感觉，还记得我在例程二指针混合运算中提到的表达式(_p\[\])()吗？这就是函数指针数组定义。因为\[\]的优先级高于_，因此p首先是一个数组，然后数组中的每一项是一个指针，是什么指针呢，外部括号表明是一个函数指针，后面的括号表明这个函数无参数，默认返回。综述，p就是一个函数指针数组。
 
@@ -151,16 +146,16 @@
     /* 函数指针定义 */
     typedef int (*PFN)(int n)；
     PFN pfn;
-    
+
     /* 函数指针赋值 */
     pfn = aa;
-    
+
     /* 函数指针数组赋值 */
     pfn[] = {aa, bb, cc};
-    
+
     /* 函数指针作为函数参数传递 */
     void fun(PFN pfn){}
-    
+
 
 是否清爽了好多，因此，在我们的产品代码中有一条编程规范：函数指针必须通过typedef方式使用。
 
@@ -197,32 +192,30 @@
         SelfIntro pfnSelf;      /* 自我介绍 */
         struct student *next;  /* 指向下一结点 */
     };
-    
+
     每个学生可以有个性的自我介绍，示例如下：
-    
+
     void student1()
     {
         printf("我是小马儿，一个渴望良知与灵魂的嵌入式软件工程师。");
     }
-    
+
     void student2()
     {
        /* 准备开始播放一段动画 */
        play(...);
     }
-    
+
     void student3()
     {
        /* 准备开始唱歌 */
        music(...);
     }
     ……
-    
 
 然后，在构建学生信息时，需要将这个各具特性的函数传递进去，构建学生信息的函数原型如下：
 
     void createStudent(int num, float score, SelfIntro pfnSelf);
-    
 
 构建过程如下：
 
@@ -230,7 +223,6 @@
     createStudent(2, 96, student2);
     createStudent(3, 89, student3);
     ……
-    
 
 此时，奇妙的事情发生了，虽然每个学生的个人介绍千差万别，但学生信息管理系统可以以统一的方式组织，如让所有考试及格的学生依次做一个自我介绍，程序示意如下：
 
@@ -243,7 +235,6 @@
                p->pfnSelf();
         }
     }
-    
 
 如果将上述这段代码当做框架代码，而每个学生的自我介绍是基于框架的特定应用，是否能嗅到一丝框架程序设计的味道。
 
@@ -281,7 +272,6 @@
     		 	微信.发送朋友圈(图片);
     	 }
     }
-    
 
 呵呵，终于搞定了，可以实现第二种操作逻辑了，皆大欢喜，至于相机软件和微信软件是否被迫紧密的耦合在一起，就顾不得那么多了。
 
@@ -296,7 +286,7 @@
     		else if (用户选择发送朋友圈)
     			微信.发送朋友圈(图片);
     	}
-    	
+
     	if （QQ已安装）
     	{
     		if (用户选择发送给某个朋友)
@@ -304,14 +294,13 @@
     		else if (收藏)
     			QQ.收藏(图片);
     	}
-    
+
     	if （微博已安装）
     	    微博.发送(图片);
     	if （便签已安装）
     	    便签.发送(图片);
     	 ……
     }
-    
 
 拿起我的手机，发现有好多发送选项：微信、朋友圈、QQ、微博、小米快传、微信收藏、短信、蓝牙、便签、二维码、邮件、beam、MetaMoJiNote、有道云笔记、拍立淘、发送到电脑、美图秀秀-美化图片、美图休息-人像美容、支付宝、面对面快传、QQ收藏……
 
@@ -325,14 +314,14 @@
     {
         保存并管理所有高级应用接口，包含名称、图标、接口函数等；
     }
-    
+
     相机发送（void）
     {
         以列表方式展现所有的高级应用接口，可以通过名称或图标方式展示；
         获取用户选择了哪个接口；
         调用相应的高级应用接口；
     }
-    
+
 
 这个世界瞬间清净了，不管使用图片的高级应用有多少，而相机模块代码不在需要修改了，且保留了高内聚低耦合的设计理念，所有的软件模块之间都解耦了。
 
@@ -349,7 +338,7 @@
     	FunRegister pfn;		/* 注册函数 */
     }register[MAX_REGISTER_COUNT];
     int nIndex;	/* 索引兼注册个数 */
-    
+
     /* 初始化 */
     void init(void)
     {
@@ -360,7 +349,7 @@
     		register[i].pfn = NULL;
     	}
     }
-    
+
     /* 注册过程 */
     int registerProc(LPCTSRT lpszMenuName, FunRegister pfn)
     {
@@ -370,7 +359,7 @@
     	register[nIndex].pfn = pfn;
     	nIndex++;
     }
-    
+
     /* 选择一副图片后，点击发送，弹出菜单列表 */
     void clickMsg(void)
     {
@@ -378,20 +367,20 @@
     	for (i = 0; i < nIndex; i++)
     		popMenu(register[i].szMenuName);
     }
-    
+
     /* 用户选择某一项菜单，执行消息函数 */
     void menuMsg(int i, unsigned char* pImage)
     {
     	register[i].pfn(pImage);
     }
-    
+
     /* 应用层构建注册函数并注册的过程 */
     void user1(unsigned char* pImage)
     {
     	……
     }
     register("user1Menu", user1);
-    
+
 
 ◇◇◇
 
@@ -416,7 +405,7 @@
     #define MAX_REGISTER_COUNT 16	/* 最大允许的注册个数 */
     FunRegister register[MAX_REGISTER_COUNT];
     int nIndex;	/* 索引兼注册个数 */
-    
+
     /* 初始化 */
     void init(void)
     {
@@ -424,7 +413,7 @@
         for (i = 0; i < MAX_REGISTER_COUNT; i++)
             register[i] = NULL;
     }
-    
+
     /* 注册过程 */
     int registerProc(FunRegister pfn)
     {
@@ -432,7 +421,7 @@
             return 0;
         register[nIndex++] = pfn;
     }
-    
+
     /* 定时间隔电度统计过程 */
     void clickMsg(void)
     {
@@ -441,7 +430,7 @@
         for (i = 0; i < nIndex; i++)
             register[i](energy);
     }
-    
+
     /* 分时电度统计过程 */
     void timeEnergy(int nEnergy)
     {
@@ -457,7 +446,7 @@
             ……;
         }
     }
-    
+
 
 2.6.4 总结与思考
 -----------
@@ -475,4 +464,4 @@
 
 注册机制是一种技能，而非知识，要掌握它需要一定量的刻意训练，不然你会有一种朦胧的感觉，明明感觉很简单，就是用不起来。
 
-[返回目录](https://blog.csdn.net/zhangmalong/article/details/103197670)  
+[返回目录](https://blog.csdn.net/zhangmalong/article/details/103197670)

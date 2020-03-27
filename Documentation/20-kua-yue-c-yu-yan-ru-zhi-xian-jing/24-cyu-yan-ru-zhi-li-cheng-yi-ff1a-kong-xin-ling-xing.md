@@ -9,8 +9,6 @@
 
 本文链接：[https://blog.csdn.net/zhangmalong/article/details/103933188](https://blog.csdn.net/zhangmalong/article/details/103933188)
 
-展开
-
 2.4.1 工作闭环和边界判断
 ---------------
 
@@ -30,10 +28,10 @@
 6.  外层高度为奇数；
 7.  外层高度>内层高度。
 
-新人的第一个提交版本一般很难做出完善的判断，甚至有很多人都意识不到需要进行边界判断，此时，在我的刻意错误输入下，程序就会出现各种各样异常，如下图所示：  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2020011108584377.png)  
-又或干脆是：  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200111085857915.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5nbWFsb25n,size_16,color_FFFFFF,t_70)
+新人的第一个提交版本一般很难做出完善的判断，甚至有很多人都意识不到需要进行边界判断，此时，在我的刻意错误输入下，程序就会出现各种各样异常，如下图所示：
+![](https://img-blog.csdnimg.cn/2020011108584377.png)
+又或干脆是：
+![](https://img-blog.csdnimg.cn/20200111085857915.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5nbWFsb25n,size_16,color_FFFFFF,t_70)
 
 相比较网络或数据库程序，大多数工控产品代码规模并不大，但对程序质量要求却比较严格。因此，如何写出高效简洁的边界判断语句，是一个嵌入式程序员的基本功。回到该例程，如何简洁且有效的对菱形高度进行判断，成为写好该例程的首个关键点。
 
@@ -60,7 +58,6 @@
       ** **
        ***
         *
-    
 
 用一个例子描述，比一大堆文字惯用多了，一图顶千言。
 
@@ -80,7 +77,6 @@
     --------
        ***
         *
-    
 
 按照这种逻辑，程序主体如下：
 

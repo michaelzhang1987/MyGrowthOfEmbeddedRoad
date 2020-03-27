@@ -9,8 +9,6 @@
 
 本文链接：[https://blog.csdn.net/zhangmalong/article/details/103065005](https://blog.csdn.net/zhangmalong/article/details/103065005)
 
-展开
-
 大家好，我是小马儿。我有近20年的高可靠强实时工业嵌入式产品软件研发经验，先后就职于国企、外企、私企，带过团队，做过产品，能深刻理解国内外企业研发模式间的区别和巨大差距。
 
 目前，我是一名咨询师。我已构建出体系化的知识框架，可帮助个人完成从入职到架构师的跨越，也可帮助企业打破产品繁杂混乱难以维护的困局，并在人员培训、团队建设、产品质量管控等多方面帮助企业快速成长。
@@ -43,6 +41,7 @@
 CSDN博客地址：https://blog.csdn.net/zhangmalong
 微信公众号：异维设计一我的嵌入式成长之路
 ![](https://img-blog.csdnimg.cn/20191114115911316.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5nbWFsb25n,size_16,color_FFFFFF,t_70)<br>
+
 通过网络写书，一个最大的好处是可以一边写一边和朋友们交流，为了方便交流，我额外构建了一个qq交流群：217304568，群名称为“嵌入式软件成长之路”。为了防止灌水党，大家加入时请标注“异维”二字，欢迎大家加入。
 
 我是小马儿，一个渴望良知与灵魂的嵌入式软件工程师，欢迎您的陪伴与同行。

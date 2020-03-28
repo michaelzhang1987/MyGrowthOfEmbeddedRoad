@@ -14,7 +14,7 @@ Welcome to 从入职到架构师——我的嵌入式软件成长之路's docume
 
 .. toctree::
    :maxdepth: 1
-   :caption: 我的嵌入式软件成长之路
+   :caption: 1.0 我的嵌入式软件成长之路
 
    10-wo-de-qian-ru-shi-cheng-zhang-zhi-lu/11-zi-wo-jian-shao
    10-wo-de-qian-ru-shi-cheng-zhang-zhi-lu/12-zao-qi-zhi-chang-de-yi-xie-tong-ku-jing-li

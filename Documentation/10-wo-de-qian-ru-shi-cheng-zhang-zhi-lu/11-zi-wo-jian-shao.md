@@ -1,4 +1,4 @@
-1 自我介绍
+1.1 自我介绍
 ========
 
 原创 [小马儿2019](https://me.csdn.net/zhangmalong) 最后发布于2019-11-27 10:27:06 阅读数 169 收藏
@@ -34,7 +34,7 @@
 
 一个简简单单的小程序，好似可以打通艺术和程序的边界。记得那段时间，我们不停的修改各种迭代参数、迭代次数以及颜色配比，就为了寻找各种漂亮的艺术花纹。两个人互相攀比中，不知不觉都沉溺其中，难以自拔。
 
-![](https://img-blog.csdnimg.cn/20191127102044705.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5nbWFsb25n,size_16,color_FFFFFF,t_70)<br><br>
+![](https://img-blog.csdnimg.cn/20191127102044705.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5nbWFsb25n,size_16,color_FFFFFF,t_70)<br>
 ![](https://img-blog.csdnimg.cn/20191127102051823.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5nbWFsb25n,size_16,color_FFFFFF,t_70)<br>
 我前文提及，编程爱好者的职场路会走的更顺利一些，成功的概率更大一些，而且比较容易站到更高的位置。
 

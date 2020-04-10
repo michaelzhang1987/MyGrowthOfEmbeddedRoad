@@ -9,8 +9,6 @@
 
 本文链接：[https://blog.csdn.net/zhangmalong/article/details/103197670](https://blog.csdn.net/zhangmalong/article/details/103197670)
 
-
-
 不知大家是否有这样的经历，自己发现一个很好的东东，但在给别人分享时，无论如何也说不清楚，急的满头大汗，语无伦次，但别人依然是云里雾里的，半信半疑。我自己就经常如此，真应了那句话，茶壶里煮饺子——倒不出。
 
 我喜欢交流与分享，喜欢将自己平时工作中总结出来的各种行之有效的策略和技巧分享给别人，但经常碰到各种各样的窘境。
@@ -89,10 +87,10 @@
 4.0 进入真实产品世界<br>
 　　[4.1 一款真实的产品](https://blog.csdn.net/zhangmalong/article/details/104834110)<br>
 　　[4.2 基础数据模型](https://blog.csdn.net/zhangmalong/article/details/104988018)<br>
-　　4.3 架构师眼中的产品<br>
+　　[4.3 架构师眼中的产品](https://blog.csdn.net/zhangmalong/article/details/105134465)<br>
 5.0 接口和模块化<br>
-　　5.1 模块化，知易行难<br>
-　　5.2 起步，从通用函数下手<br>
+　　[5.1 模块化，知易行难](https://blog.csdn.net/zhangmalong/article/details/105281958)<br>
+　　[5.2 AI数据结构](https://blog.csdn.net/zhangmalong/article/details/105431091)<br>
 　　5.3 遥测类数据模型接口提炼<br>
 　　5.4 日志类数据模型接口提炼<br>
 　　5.5 设定值类数据模型接口提炼<br>

@@ -61,8 +61,8 @@ Welcome to 从入职到架构师——我的嵌入式软件成长之路's docume
    :caption: 5.0 接口和模块化
 
    50-jie-kou-he-mo-kuai-hua/51-mo-kuai-hua-zhi-yi-xing-nan
-.. 50-jie-kou-he-mo-kuai-hua/52-qi-bu-cong-tong-yong-han-shu-xia-shou
-   50-jie-kou-he-mo-kuai-hua/53-yao-ce-lei-shu-ju-mo-xing-jie-kou-ti-lian
+   50-jie-kou-he-mo-kuai-hua/52-AI-shu-ju-jie-kou
+.. 50-jie-kou-he-mo-kuai-hua/53-yao-ce-lei-shu-ju-mo-xing-jie-kou-ti-lian
    50-jie-kou-he-mo-kuai-hua/54-ri-zhi-lei-shu-ju-mo-xing-jie-kou-ti-lian
    50-jie-kou-he-mo-kuai-hua/55-she-ding-zhi-lei-shu-ju-mo-xing-jie-kou-ti-lian
    50-jie-kou-he-mo-kuai-hua/56-xin-hao-fu-gui-yi-ge-qiang-ou-he-mo-kuai-jie-ou-guo-cheng

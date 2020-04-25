@@ -92,7 +92,7 @@
 　　[5.1 模块化，知易行难](https://blog.csdn.net/zhangmalong/article/details/105281958)<br>
 　　[5.2 AI数据结构](https://blog.csdn.net/zhangmalong/article/details/105431091)<br>
 　　[5.3 报告类数据模型接口](https://blog.csdn.net/zhangmalong/article/details/105578239)<br>
-　　5.4 日志类数据模型接口提炼<br>
+　　[5.4 设定值类数据模型接口](https://blog.csdn.net/zhangmalong/article/details/105678635)<br>
 　　5.5 设定值类数据模型接口提炼<br>
 　　5.6信号复归——一个强耦合模块解耦过程<br>
 6.0 整体架构设计<br>

@@ -64,8 +64,8 @@ Welcome to 从入职到架构师——我的嵌入式软件成长之路's docume
    50-jie-kou-he-mo-kuai-hua/52-AI-shu-ju-jie-kou
    50-jie-kou-he-mo-kuai-hua/53-bao-gao-lei-shu-ju-mo-xing-jie-kou
    50-jie-kou-he-mo-kuai-hua/54-bao-hu-she-ding-zhi-shu-ju-mo-xing-jie-kou
-.. 50-jie-kou-he-mo-kuai-hua/55-she-ding-zhi-lei-shu-ju-mo-xing-jie-kou-ti-lian
-   50-jie-kou-he-mo-kuai-hua/56-xin-hao-fu-gui-yi-ge-qiang-ou-he-mo-kuai-jie-ou-guo-cheng
+   50-jie-kou-he-mo-kuai-hua/55-xin-hao-hui-gui--yi-ge-qiang-ou-he-mo-kuai-de-jie-ou-guo-cheng
+.. 50-jie-kou-he-mo-kuai-hua/56-xin-hao-fu-gui-yi-ge-qiang-ou-he-mo-kuai-jie-ou-guo-cheng
 
 .. toctree::
    :maxdepth: 1

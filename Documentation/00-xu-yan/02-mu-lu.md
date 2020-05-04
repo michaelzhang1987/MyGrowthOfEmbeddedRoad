@@ -93,8 +93,7 @@
 　　[5.2 AI数据结构](https://blog.csdn.net/zhangmalong/article/details/105431091)<br>
 　　[5.3 报告类数据模型接口](https://blog.csdn.net/zhangmalong/article/details/105578239)<br>
 　　[5.4 设定值类数据模型接口](https://blog.csdn.net/zhangmalong/article/details/105678635)<br>
-　　5.5 设定值类数据模型接口提炼<br>
-　　5.6信号复归——一个强耦合模块解耦过程<br>
+　　[5.5 信号复归——一个强耦合模块解耦过程](https://blog.csdn.net/zhangmalong/article/details/105881223)<br>
 6.0 整体架构设计<br>
 　　6.1 架构设计概论——产品化思维，必须进入架构世界<br>
 　　6.2 严格层次化软件静态架构模型<br>

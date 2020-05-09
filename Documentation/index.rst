@@ -65,13 +65,12 @@ Welcome to 从入职到架构师——我的嵌入式软件成长之路's docume
    50-jie-kou-he-mo-kuai-hua/53-bao-gao-lei-shu-ju-mo-xing-jie-kou
    50-jie-kou-he-mo-kuai-hua/54-bao-hu-she-ding-zhi-shu-ju-mo-xing-jie-kou
    50-jie-kou-he-mo-kuai-hua/55-xin-hao-hui-gui--yi-ge-qiang-ou-he-mo-kuai-de-jie-ou-guo-cheng
-.. 50-jie-kou-he-mo-kuai-hua/56-xin-hao-fu-gui-yi-ge-qiang-ou-he-mo-kuai-jie-ou-guo-cheng
 
 .. toctree::
    :maxdepth: 1
    :caption: 6.0 整体架构设计
 
-   10-wo-de-qian-ru-shi-cheng-zhang-zhi-lu/11-zi-wo-jian-shao
+   60-zheng-ti-jia-gou-she-ji/61-chan-pin-hua-si-wei-mai-ru-jia-gou-shi-jie
 
 .. toctree::
    :maxdepth: 1

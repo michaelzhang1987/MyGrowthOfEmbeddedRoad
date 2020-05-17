@@ -96,7 +96,7 @@
 　　[5.5 信号复归——一个强耦合模块解耦过程](https://blog.csdn.net/zhangmalong/article/details/105881223)<br>
 6.0 整体架构设计<br>
 　　6.1 [产品化思维，必须进入架构世界](https://blog.csdn.net/zhangmalong/article/details/105992562)<br>
-　　6.2 严格层次化软件静态架构模型<br>
+　　6.2 [严格层次化模型](https://blog.csdn.net/zhangmalong/article/details/106148707)<br>
 　　6.3 动态架构执行框架<br>
 　　6.4 配置软件模型<br>
 　　6.5 维护软件模型<br>

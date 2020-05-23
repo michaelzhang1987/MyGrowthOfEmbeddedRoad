@@ -97,7 +97,7 @@
 6.0 整体架构设计<br>
 　　6.1 [产品化思维，必须进入架构世界](https://blog.csdn.net/zhangmalong/article/details/105992562)<br>
 　　6.2 [严格层次化模型](https://blog.csdn.net/zhangmalong/article/details/106148707)<br>
-　　6.3 动态架构执行框架<br>
+　　6.3 [元件化模型](https://blog.csdn.net/zhangmalong/article/details/106287576)<br>
 　　6.4 配置软件模型<br>
 　　6.5 维护软件模型<br>
 　　6.6 虚拟设备模型<br>

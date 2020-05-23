@@ -72,6 +72,7 @@ Welcome to 从入职到架构师——我的嵌入式软件成长之路's docume
 
    60-zheng-ti-jia-gou-she-ji/61-chan-pin-hua-si-wei-mai-ru-jia-gou-shi-jie
    60-zheng-ti-jia-gou-she-ji/62-yan-ge-ceng-ci-hua-mo-xing
+   60-zheng-ti-jia-gou-she-ji/63-yuan-jian-hua-mo-xing
 
 .. toctree::
    :maxdepth: 1
